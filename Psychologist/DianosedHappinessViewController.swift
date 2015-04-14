@@ -44,7 +44,8 @@ class DiagnosedHappinessViewController : HappinessViewController, UIPopoverPrese
             }
         }
     }
-
+// Для iOS 8.3 SDK
+    
     func adaptivePresentationStyleForPresentationController(controller: UIPresentationController!, traitCollection: UITraitCollection!) -> UIModalPresentationStyle {
         return UIModalPresentationStyle.None
     }
